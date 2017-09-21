@@ -77,11 +77,9 @@ public class HandTest {
 	@Test
 	public void test1() {
 		
-		// TODO: Test 2-3-4, score should be 9
 
 		ArrayList<Card> cards = new ArrayList<Card>();
 		
-		// TODO:  REMOVE THE COMMENTS FROM THE NEXT THREE LINES
 		
 		cards.add(new Card(eSuit.CLUBS,eRank.TWO));
 		cards.add(new Card(eSuit.CLUBS,eRank.THREE));
@@ -89,13 +87,12 @@ public class HandTest {
 		
 		int[] score = HandHelper(cards);
 		
-		//	TODO: Check Score to make sure it's right.  Something close to this:
 		assertEquals(score[0],9);		
 	}
 
 	@Test
 	public void test2() {
-		// TODO: Test 2-3-J, score should be 15
+
 		ArrayList<Card> cards = new ArrayList<Card>();
 		
 		cards.add(new Card(eSuit.HEARTS, eRank.TWO));
@@ -108,7 +105,6 @@ public class HandTest {
 
 	@Test
 	public void test3() {
-		// TODO: Test 2-3-J-J, score should be 25
 		ArrayList<Card> cards = new ArrayList<Card>();
 		
 		cards.add(new Card(eSuit.DIAMONDS,eRank.TWO));
@@ -121,7 +117,6 @@ public class HandTest {
 
 	@Test
 	public void test4() {
-		// TODO: Test J-A, score should be 21
 		ArrayList<Card> cards = new ArrayList<Card>();
 		
 		cards.add(new Card(eSuit.CLUBS,eRank.JACK));
@@ -132,7 +127,6 @@ public class HandTest {
 
 	@Test
 	public void test5() {
-		// TODO: Test J-A-A, score should be 12
 		ArrayList<Card> cards = new ArrayList<Card>();
 		
 		cards.add(new Card(eSuit.HEARTS,eRank.JACK));
@@ -144,7 +138,6 @@ public class HandTest {
 
 	@Test
 	public void test6() {
-		// TODO: Test J-A-A-A, score should be 13
 		ArrayList<Card> cards = new ArrayList<Card>();
 		
 		cards.add(new Card(eSuit.HEARTS,eRank.JACK));
@@ -157,7 +150,6 @@ public class HandTest {
 	
 	@Test
 	public void test7() {
-		//	TODO: Test A-A-A-A-2, score should be 6 or 16
 		ArrayList<Card> cards = new ArrayList<Card>();
 		
 		cards.add(new Card(eSuit.CLUBS,eRank.ACE));

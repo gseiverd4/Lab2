@@ -37,12 +37,12 @@ public class Hand {
 			case JACK: 
 			case QUEEN: 
 			case KING:
-					iScore[0] += 10;
-					iScore[1] += 10;
-					break;
+				iScore[0] += 10;
+				iScore[1] += 10;
+				break;
 			default:
-					iScore[0] += c.geteRank().getiRankNbr();
-					iScore[1] += c.geteRank().getiRankNbr();
+				iScore[0] += c.geteRank().getiRankNbr();
+				iScore[1] += c.geteRank().getiRankNbr();
 				}
 			
 			//Correct a problem with multiple aces
