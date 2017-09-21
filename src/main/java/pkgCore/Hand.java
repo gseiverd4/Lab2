@@ -43,15 +43,6 @@ public class Hand {
 			default:
 				iScore[0] += c.geteRank().getiRankNbr();
 				iScore[1] += c.geteRank().getiRankNbr();
-				}
-			
-			//Correct a problem with multiple aces
-			if (iScore[0] != iScore[1]) 
-			{
-				if(iScore[0] > 21) 
-				{
-					iScore[0] = iScore[0] - 10;
-				}
 			}
 		}
 		
